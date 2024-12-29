@@ -1,0 +1,45 @@
+{
+    "activate_air_filtration": [
+        "1"
+    ],
+    "filament_cost": [
+        "24"
+    ],
+    "filament_max_volumetric_speed": [
+        "13"
+    ],
+    "filament_retraction_length": [
+        "0.4"
+    ],
+    "filament_settings_id": [
+        "In. Black"
+    ],
+    "filament_vendor": [
+        "Inland"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "filament_z_hop_types": [
+        "Normal Lift"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA High Speed @BBL X1C",
+    "name": "In. Black",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "205"
+    ],
+    "nozzle_temperature_range_high": [
+        "215"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "1.8.0.13"
+}
