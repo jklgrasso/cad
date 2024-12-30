@@ -1,0 +1,13 @@
+Bed leveling P1S
+
+;===== bed leveling ==================================
+M1002 judge_flag g29_before_print_flag
+M622 J1
+
+    M1002 gcode_claim_action : 1
+    G29 A X{first_layer_print_min[0]} Y{first_layer_print_min[1]} I{first_layer_print_size[0]} J{first_layer_print_size[1]}
+    M400
+    M500 ; save cali data
+
+M623
+;===== bed leveling end ================================
